@@ -81,7 +81,7 @@ function App() {
 
     return (
         <>
-            <div className="scroll-smooth relative bg-gradient-to-b from-[#161616] to-[#080808] text-white font-extralight tracking-widest h-full">
+            <div className="scroll-smooth bgCool relative text-white bg-gradient-to-b from-[#161616] to-[#080808] tracking-widest font-extralight  h-full text-pretty ">
                 {showSplash && (
                     <div
                         className={`fixed top-0 left-0 w-full h-full bg-black text-white z-[9999] flex items-center justify-center text-3xl sm:text-4xl font-semibold transition-all duration-1000 ${

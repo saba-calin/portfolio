@@ -8,7 +8,7 @@ export default function FirstThingUserSee() {
                     <p className="uppercase text-3xl">
                         Calin Sabaila
                     </p>
-                    <p className="uppercase text-xl lg:text-6xl" style={{ color: '#fed7aa' }}>
+                    <p className="uppercase text-xl lg:text-6xl" style={{ color: '#fed7aa', fontWeight: '200'}}>
                         Full-Stack Developer
                     </p>
                     <div className="flex items-center justify-center gap-6">
