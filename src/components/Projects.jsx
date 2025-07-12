@@ -6,8 +6,8 @@ export default function Projects({ openModal, projectsToSee }) {
     return (
         <>
             <section className="flex items-end justify-center flex-col w-full px-6 md:px-24 space-y-12">
-                <div className="flex flex-row items-center justify-between w-full mt-40 lg:relative">
-                    <h1>Projects</h1>
+                <div className="flex flex-row items-center justify-center w-full mt-40 lg:relative">
+                    <h1 className="text-5xl underline mb-30" style={{ color: '#fed7aa' }}>Projects</h1>
                 </div>
 
                 <ul className="grid grid-cols-1 lg:gap-8 gap-4 w-full sm:grid-cols-2 lg:grid-cols-3 z-10 ">

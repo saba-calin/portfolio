@@ -24,7 +24,7 @@ export default function WorkExperience() {
     ];
     return (
         <section className="mt-40 flex flex-col items-center space-y-12 md:px-24 px-6 lg:relative">
-            <h1>Work Experience</h1>
+            <h1 className="text-5xl underline mt-5 mb-30" style={{ color: '#fed7aa' }}>Work Experience</h1>
             <div
                 style={{
                     gridTemplateRows: `repeat(${jobs.length}, minmax(0, 1fr))`,

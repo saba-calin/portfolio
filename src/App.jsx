@@ -6,6 +6,7 @@ import FirstThingUserSee from "./components/FirstThingUserSee.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
+import Bottom from "./components/Bottom.jsx";
 
 const greetings = [
     "Hello 👋",
@@ -104,6 +105,7 @@ function App() {
                     <Skills />
                     <WorkExperience />
                     {/*<Contact />*/}
+                    <Bottom />
                 </main>
             </div>
 

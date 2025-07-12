@@ -42,7 +42,7 @@ export default function Skills() {
     return (
         <>
             <section className="mt-40 flex flex-col items-center space-y-12 md:px-24 px-6 lg:relative">
-                <h1>Skills</h1>
+                <h1 className="text-5xl underline mb-30" style={{ color: '#fed7aa' }}>Skills</h1>
                 <ul className="grid grid-cols-2 sm:gap-6 gap-10 md:grid-cols-3 md:gap-12 lg:grid-cols-5 lg:gap-14  place-items-center items-center z-10 mt-10">
                     {Object.keys(techs).map((tech) => (
                         <SkillCard
