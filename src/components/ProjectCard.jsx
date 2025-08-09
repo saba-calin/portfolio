@@ -53,7 +53,7 @@ export default function ProjectCard({
                                 className={`hover:underline hover:text-white font-bold rounded-md p-1 px-2 border bg-red-800 border-gray-800 text-white uppercase ${
                                     gitHubTrue ? '' : 'hidden'
                                 }`}
-                                href={gitHubLink}
+                                href={liveLink}
                                 target="_blank"
                             >
                                 Live

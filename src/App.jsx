@@ -1,11 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import {useEffect, useRef, useState} from "react";
 import ScrollDown from "./components/ScrollDown.jsx";
 import NavBar from "./components/NavBar.jsx";
 import WorkExperience from "./components/WorkExperience.jsx";
 import FirstThingUserSee from "./components/FirstThingUserSee.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
-import Contact from "./components/Contact.jsx";
 import Bottom from "./components/Bottom.jsx";
 
 const greetings = [
@@ -51,7 +50,6 @@ function App() {
         }
     };
 
-    // Animate greetings
     useEffect(() => {
         function nextGreeting(index) {
             if (index >= greetings.length) {
@@ -104,7 +102,6 @@ function App() {
                     />
                     <Skills />
                     <WorkExperience />
-                    {/*<Contact />*/}
                     <Bottom />
                 </main>
             </div>

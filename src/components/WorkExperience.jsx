@@ -1,9 +1,5 @@
 import React from 'react';
 import Jobs from './Jobs';
-import dualinfor from '../assets/companyImg/dualinfor.webp';
-import algoritmo from '../assets/companyImg/algoritmo.webp';
-// import mafraTv from '../assets/companyImg/mafraTv.webp';
-import pontinhos from '../assets/companyImg/pontinhos.webp';
 import mhp from '../assets/companyImg/mhp.png';
 import selfEmployed from '../assets/companyImg/self_employed.png';
 
