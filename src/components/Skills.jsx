@@ -12,6 +12,7 @@ import java from '../assets/techsImg/java.png';
 import springBoot from '../assets/techsImg/spring_boot.png';
 import postgresql from '../assets/techsImg/postgres.png';
 import aws from '../assets/techsImg/aws.png';
+import gooleCloud from "../assets/techsImg/google-cloud.png";
 import docker from '../assets/techsImg/docker.png';
 import githubActions from '../assets/techsImg/github_actions.png';
 import angular from '../assets/techsImg/angular.png';
@@ -23,6 +24,7 @@ export default function Skills() {
         springBoot: { name: 'Spring Boot', src: springBoot },
         postgresql: { name: 'PostgreSQL', src: postgresql },
         aws: { name: 'AWS', src: aws },
+        googleCloud: { name: 'Google Cloud', src: gooleCloud },
         react: { name: 'React', src: reactImg },
         angular: { name: 'Angular', src: angular },
         docker: { name: 'Docker', src: docker },
@@ -34,7 +36,6 @@ export default function Skills() {
         typeScript: { name: 'TypeScript', src: typeScript },
         python: { name: 'Python', src: pythonImg },
         cSharp: { name: 'C#', src: cSharpImg },
-
         git: { name: 'Git/GitHub', src: gitImg },
         githubActions: { name: 'Github Actions', src: githubActions }
     };
