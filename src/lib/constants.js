@@ -11,7 +11,7 @@ export const PROJECTS = [
         gitHubTrue: true,
         gitHubLink: 'https://github.com/saba-calin/timetable',
         title: 'University Timetable',
-        desc: 'Clean and simple timetable app for UBB students (alternative to the cluttered official schedule).',
+        desc: 'Clean and simple timetable app for BBU students (alternative to the cluttered official schedule).',
         isPublished: true,
         techs: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Google Cloud'],
     },
