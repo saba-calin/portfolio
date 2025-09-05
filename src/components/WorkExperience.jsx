@@ -7,7 +7,7 @@ export default function WorkExperience() {
     const jobs = [
         {
             company: 'MHP - A Porsche Company',
-            position: 'Full-Stack Intern',
+            position: 'Java & Cloud Intern',
             date: 'Jul 2025 - Present',
             img: mhp,
         },
